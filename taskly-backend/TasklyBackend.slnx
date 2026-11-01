@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Taskly.Host/Taskly.Host.csproj" />
+    <Project Path="src/Taskly.SharedKernel/Taskly.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/">
+    <Project Path="src/Modules/Users/Taskly.Modules.Users/Taskly.Modules.Users.csproj" />
+    <Project Path="src/Modules/Tasks/Taskly.Modules.Tasks/Taskly.Modules.Tasks.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Taskly.UnitTests/Taskly.UnitTests.csproj" />
+    <Project Path="tests/Taskly.IntegrationTests/Taskly.IntegrationTests.csproj" />
+    <Project Path="tests/Taskly.ArchitectureTests/Taskly.ArchitectureTests.csproj" />
+  </Folder>
+</Solution>

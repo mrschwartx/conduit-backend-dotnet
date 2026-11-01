@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>Taskly.Host</AssemblyName>
+    <RootNamespace>Taskly.Host</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Taskly.SharedKernel\Taskly.SharedKernel.csproj" />
+    <ProjectReference Include="..\Modules\Users\Taskly.Modules.Users\Taskly.Modules.Users.csproj" />
+    <ProjectReference Include="..\Modules\Tasks\Taskly.Modules.Tasks\Taskly.Modules.Tasks.csproj" />
+  </ItemGroup>
+</Project>

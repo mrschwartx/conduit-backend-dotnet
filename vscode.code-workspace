@@ -1,12 +1,12 @@
 {
     "folders": [
         {
-            "name": "conduit-backend-dotnet",
-            "path": "conduit-backend-dotnet"
+            "name": "taskly-backend",
+            "path": "taskly-backend"
         },
         {
-            "name": "conduit-docker",
-            "path": "conduit-docker"
+            "name": "taskly-docker",
+            "path": "taskly-docker"
         },
         {
             "name": ".",
